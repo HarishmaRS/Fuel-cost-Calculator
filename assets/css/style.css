@@ -35,6 +35,9 @@ body{
 .input-box,.calc-btn{
     width: 350px;
 }
+.form-control{
+    font-size: 14px;
+}
 .calc-btn{
     background-color: #e33939;
     color: white;
