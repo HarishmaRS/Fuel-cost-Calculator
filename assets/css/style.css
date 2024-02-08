@@ -42,3 +42,12 @@ body{
 .calc-btn:hover{
     background-color: #f44e7d;
 }
+
+@media screen and (max-width: 426px){
+    .input-box,.calc-btn{
+        width: 260px;
+    }
+    .calculator{
+    padding: 20px;
+    }
+}
