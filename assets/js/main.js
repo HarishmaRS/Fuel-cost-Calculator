@@ -18,6 +18,10 @@ calculateBtn.addEventListener('click', (event) => {
        resultPage.classList.add('modal');
         modalContent.innerHTML='Please Enter all the values to Calculate the Cost...!'
     }
+    else if(distance <= 0 || efficiency <=0 || cost <= 0){
+        resultPage.classList.add('modal');
+        modalContent.innerHTML = 'Please enter a positive value greater than 0 for all the inputs to calculate the cost...!'
+    }
     else {
         const result = (distance / efficiency) * cost;
         resultPage.classList.add('modal');
